@@ -1,0 +1,14 @@
+﻿<h1>All Animals:</h1>
+
+<ol>
+@foreach (Animal animal in Model)
+{
+    <ul>
+        <li>Name: @animal.Name</li>
+        <li>Age: @animal.Age</li>
+        <li>Gender: @animal.Gender)</li>
+        <li>Species: @animal.Species)</li>
+    </ul>
+    <br>
+}
+</ol>
